@@ -26,12 +26,12 @@ export default function Hero() {
           >
             View My Work
           </a>
-          <a
+          {/* <a
             href="#projects"
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded"
           >
             Download My Resume
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
