@@ -8,15 +8,7 @@ export default function Projects() {
           Projects I Have Built
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <Card
-            title="Rapid Flow Plumbing"
-            description="A responsive plumbing website built with Next.js, Tailwind CSS and deployed on Vercel."
-            link="https://plumbing-landing-page-silk.vercel.app/"
-            image="/project_images/image1.png"
-            techstack={["Next.js", "Tailwind CSS", "Vercel"]}
-          />
-
-          <Card
+        <Card
             title="MVMNT Entertainment"
             description="A production website built and maintained from the ground up with CMS integration, monitoring, and ongoing support."
             link="https://mvmntentertainment.com/"
@@ -29,6 +21,15 @@ export default function Projects() {
               "Sentry",
             ]}
           />
+          <Card
+            title="Rapid Flow Plumbing"
+            description="A responsive plumbing website built with Next.js, Tailwind CSS and deployed on Vercel."
+            link="https://plumbing-landing-page-silk.vercel.app/"
+            image="/project_images/image1.png"
+            techstack={["Next.js", "Tailwind CSS", "Vercel"]}
+          />
+
+          
         </div>
       </div>
     </section>
