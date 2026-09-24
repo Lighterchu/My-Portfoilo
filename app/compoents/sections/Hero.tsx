@@ -7,7 +7,7 @@ export default function Hero() {
         </h1>
 
         <h2 className="text-lg md:text-2xl mb-8">
-          Self Taught Frontend Developer
+          Self Taught Web Developer
         </h2>
         <div>
         <p className="max-w-2xl mx-auto text-lg text-gray-300 mb-8">
